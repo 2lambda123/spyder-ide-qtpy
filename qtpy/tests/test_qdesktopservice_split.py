@@ -1,6 +1,5 @@
 """Test QDesktopServices split in Qt5."""
 
-
 import pytest
 
 

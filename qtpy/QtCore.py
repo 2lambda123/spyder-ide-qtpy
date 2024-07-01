@@ -80,9 +80,9 @@ elif PYQT6:
     del QtCore
 
     # Alias deprecated ItemDataRole enum values removed in Qt6
-    Qt.BackgroundColorRole = (
-        Qt.ItemDataRole.BackgroundColorRole
-    ) = Qt.BackgroundRole
+    Qt.BackgroundColorRole = Qt.ItemDataRole.BackgroundColorRole = (
+        Qt.BackgroundRole
+    )
     Qt.TextColorRole = Qt.ItemDataRole.TextColorRole = Qt.ForegroundRole
 
     # Alias for MiddleButton removed in PyQt6 but available in PyQt5, PySide2 and PySide6
@@ -137,9 +137,9 @@ elif PYSIDE6:
         del guiQt
 
     # Alias deprecated ItemDataRole enum values removed in Qt6
-    Qt.BackgroundColorRole = (
-        Qt.ItemDataRole.BackgroundColorRole
-    ) = Qt.BackgroundRole
+    Qt.BackgroundColorRole = Qt.ItemDataRole.BackgroundColorRole = (
+        Qt.BackgroundRole
+    )
     Qt.TextColorRole = Qt.ItemDataRole.TextColorRole = Qt.ForegroundRole
     Qt.MidButton = Qt.MiddleButton
 

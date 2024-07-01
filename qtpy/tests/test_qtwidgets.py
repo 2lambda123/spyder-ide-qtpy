@@ -1,4 +1,5 @@
 """Test QtWidgets."""
+
 import contextlib
 import sys
 from time import sleep
