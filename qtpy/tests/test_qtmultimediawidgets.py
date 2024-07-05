@@ -1,6 +1,5 @@
 """Test QtMultimediaWidgets."""
 
-
 from qtpy import PYQT5, PYSIDE2
 
 

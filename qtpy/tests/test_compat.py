@@ -1,4 +1,5 @@
 """Test the compat module."""
+
 import sys
 
 import pytest

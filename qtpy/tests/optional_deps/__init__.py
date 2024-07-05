@@ -1,6 +1,5 @@
 """Package used for testing the deferred import error mechanism."""
 
-
 # See https://github.com/spyder-ide/qtpy/pull/387/
 
 
