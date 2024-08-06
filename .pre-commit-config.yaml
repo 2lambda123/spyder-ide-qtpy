@@ -6,12 +6,12 @@ repos:
       pass_filenames: true
       exclude: _vendor|vendored|examples
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.5.0
+    rev: v0.5.6
     hooks:
       - id: ruff
         exclude: _vendor|vendored
 -   repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.6
+    rev: 0.29.1
     hooks:
       - id: check-github-workflows
 -   repo: https://github.com/pre-commit/pre-commit-hooks
